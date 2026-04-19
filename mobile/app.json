@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "SmartSchool TZ",
+    "slug": "smartschool-tz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#00897B"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "tz.ac.bonde.smartschool"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#00897B"
+      },
+      "package": "tz.ac.bonde.smartschool"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
