@@ -6,7 +6,10 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "eas:dev:local": "eas build --profile development --local",
+    "eas:preview:local": "eas build --profile preview --local",
+    "eas:production:local": "eas build --profile production --local"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.11",
