@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#00897B"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "tz.ac.bonde.smartschool"
@@ -27,7 +29,11 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "apiUrl": "http://localhost:5000/api"
-    }
+      "apiUrl": "http://localhost:5000/api",
+      "eas": {
+        "projectId": "e0c12f04-2d3b-42a7-a7f2-13a493bd6a6a"
+      }
+    },
+    "owner": "seludoto"
   }
 }
