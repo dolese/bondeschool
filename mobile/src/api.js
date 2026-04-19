@@ -1,8 +1,10 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import Constants from "expo-constants";
 
-// ── Change this to your computer's IP when testing on a real device ───────────
-export const API_BASE = "http://localhost:5000/api";
-// On real device: "http://192.168.1.XXX:5000/api"
+// ── API URL is configured in app.json → expo.extra.apiUrl ────────────────────
+// For real device testing, update that value to your machine's local IP:
+//   "extra": { "apiUrl": "http://192.168.1.XXX:5000/api" }
+export const API_BASE = Constants.expoConfig?.extra?.apiUrl ?? "http://localhost:5000/api";
 
 const getToken = () => AsyncStorage.getItem("token");
 
